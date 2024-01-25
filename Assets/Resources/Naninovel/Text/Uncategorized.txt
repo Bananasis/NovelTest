@@ -1,0 +1,8 @@
+Class: CLASS
+Finished: Finished
+Home: HOME
+MapBackButton: Back
+MapButton: Map
+QuestLogController.QuestText: ;Find Haruo on school yard;Get notes from home;Go to School yard to think;Find Ryoko or Haruo
+Results: Results
+Yard: YARD

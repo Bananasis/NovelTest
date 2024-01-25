@@ -1,0 +1,189 @@
+; English <en> to Ukrainian <uk> localization document for `Lab` naninovel script
+
+# 10240e0f
+; Ryoko: Hi, {PlayerName} can you talk to Haruo so he gives me his notes from math class? 
+ Ryoko: Привіт, {PlayerName} не міг би ти поговорити з Харуо, щоб він позичив свої конспекти з математики? 
+
+# 24accc44
+; Ryoko: Partial exam is close and I am really desperate to have at least B- or I flank the whole semester. 
+Ryoko: Тест вже близько і мені дійсно необхідно отримати хочаб В- або я завалю весь семестр. 
+
+# b99f746b
+; Player: Ok, no problem.
+Player: Жодних проблем.
+
+# e6360fae
+; Ryoko: Thank you. You're saving my life!
+Ryoko: Дякую! Ти рятуєш моє життя!
+
+# 30691a69
+; Ryoko: It's lunch break so he probably in the school yard
+Ryoko: Зараз обідня перерва, тож він має бути на дворі.
+
+# fa8a96b4
+; Ryoko: Good luck! [skipInput]
+ Ryoko: Хай щастить! [skipInput]
+
+# dd266d0d
+; Ryoko: Did you talk to Haruo?
+ Ryoko: Ти вже поговорив з Харуо?
+
+# 8af0ade5
+; Player: I'm on it.
+Player: В процесі.
+
+# e99f0714
+; Ryoko: Counting on you.[skipInput]
+ Ryoko: Я на тебе розраховую.[skipInput]
+
+# 64267caa
+; Lunch break. Nobody's in the class.[skipInput]
+Обідня перерва. Нікого нема.[skipInput]
+
+# dd266d0d
+; Ryoko: Did you talk to Haruo?
+ Ryoko: Ти вже поговорив з Харуо?
+
+# 1881063c
+; Player: Yes, he won't give you the notes.
+ Player: Так. Він не дасть тобі свої конспекти.
+
+# e417fcfd
+; Ryoko: Crap!
+ Ryoko: Дідько!
+
+# 87bba1d1
+; Player: But I can give them to you.
+ Player: Але їх тобі можу дати я.
+
+# 94b873a4
+; Ryoko: Really?
+Ryoko: Справді?
+
+# 4c4594ff
+; Haruo: There you are. Did you bring the notes?
+ Haruo: Ось ти де. Приніс?
+
+# f013eb54
+; Ryoko: *whispering* Please.
+ Ryoko: *шепоче* Будьласочка.
+
+# 52cf9373
+; What do you do?
+ Що робити?
+
+# 7751eeea
+; @choice "Sneakly pass notes to Ryoko" set:quest_choice="Ryoko"
+ @choice "Таємно передати конспект Ріоко" set:quest_choice="Ryoko"
+
+# 4d95d97a
+; @choice "Give notes to Haruo" set:quest_choice="Haruo"
+ @choice "Віддати конспект Харуо" set:quest_choice="Haruo"
+
+# 5b9c25ff
+; @choice "Take notes for yourself" set:quest_choice="Self"
+ @choice "Залишити конспект собі" set:quest_choice="Self"
+
+# 6e917013
+;     You pass the notes to Ryoko behind your back.
+   Ти передаєш конспект Ріоко за спиною.
+
+# f33da248
+;     Player: I didn't found them. Probably lost somewhere.
+   Player: Я не знайшов його. Загубив десь напевно.
+
+# 1398ec6e
+;     Haruo: You did what!?
+     Haruo: Ти що!? 
+
+# d7f6b7b9
+;     Haruo: You know what? Nevermind. It's my fault for trusting you. Again.
+     Haruo: Знаєш що? Неважливо. Це моя провина що довірився тобі. Знов.
+
+# 71793d89
+;     Ryoko: Thank you! Won't you be in trouble because you helped me?
+     Ryoko: Дякую! Чи в тебе не буде проблем через те шо ти мені допоміг?
+
+# 52168960
+;     Player: It's ok. I'll make it up to him. [skipInput]
+  Player: Все в порядку. Я йому потім відплачу. [skipInput]
+
+# ba733df8
+;     Player: Actually, I did.
+     Player: Взагалі-то, так.
+
+# e4688434
+;     Player: There are your notes.
+     Player: Ось твій конспект.
+
+# 22cab92b
+;     You give the notes to Haruo.
+     Ти передаєш конспект Харуо.
+
+# 7f1bf9f4
+;     Haruo: Thank you, {PlayerName}. Now if you excuse me I have a lunch to eat.
+    Haruo: Дякую, {PlayerName}. А тепер, вибачайте, на мене чекає решта обіду.
+
+# 639d741b
+;     Ryoko: You promised!
+   Ryoko: Ти ж обіцяв!
+
+# 487b3180
+;     Player: I said i'd try.
+    Player: І сказав що спробую.
+
+# a386ba7
+;     Ryoko: What am i supposed to do now.
+     Ryoko: І що мені тепер робити?
+
+# f9763655
+;     Player: I'm sorry.But lying to Haruo is not the solution.
+     Player: Вибач. Але і обманювати Харуо - не вихід.
+
+# 9cc09831
+;     Ryoko: Ok, I get it.[skipInput]
+    Ryoko: Добре, я зрозуміла.[skipInput]
+
+# f33da248
+;     Player: I didn't found them. Probably lost somewhere.
+   Player: Я не знайшов його. Загубив десь напевно.
+
+# 1398ec6e
+;     Haruo: You did what!?
+     Haruo: Ти що!? 
+
+# d7f6b7b9
+;     Haruo: You know what? Nevermind. It's my fault for trusting you. Again.
+     Haruo: Знаєш що? Неважливо. Це моя провина що довірився тобі. Знов.
+
+# 143bf32e
+;     Ryoko: So... Will you give the notes to me?
+     Ryoko: Тож... Ти даси ці нотатки мені?
+
+# e5dade8f
+;     Player: You know. I don't really have them on me right now. But when I find them I'll give them to you.
+    Player: Знаєш. Я їх так і не знайшов, насправді. Але коли знайду - точно дам тобі.
+
+# 701118ba
+;     Ryoko: I see.[skipInput]
+     Ryoko: Ага.[skipInput]
+
+# 1f251b56
+;     Ryoko: O, {PlayerName}. Thank you again. What do you think of studying with me after school?
+     Ryoko: O, {PlayerName}. Дякувати тобі не передякувати. Що ти думаєш на те щоб повчитись разом, після школи?
+
+# 2504e705
+;     Player: I think that's a great idea.
+     Player: Думаю це чудова ідея .
+
+# 4a89fd83
+;     Ryoko: Good. Until then, then.[skipInput]
+     Ryoko: Добре. Тоді до вечора.[skipInput]
+
+# a4bbb089
+;     Player: Ryoko, listen...
+     Player: Ріоко, послухай...
+
+# 1d16db6c
+;     Ryoko: Sorry, don't have time for chit-chat. I need to decide what minimum wage job I'm gonna work after I fail math.[skipInput]
+     Ryoko: Вибач, не маю часу на теревеньки. Треба практикуватись кричати "Вільна касса!" для єдиной праці, яка мені світить, після того як я завалю математику.[skipInput]

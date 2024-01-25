@@ -1,0 +1,21 @@
+; English <en> to Ukrainian <uk> localization document for `Home` naninovel script
+
+# ef928296
+; @choice handler:ButtonArea button:Notes pos:0,-300 goto:.Found wait:false
+ @choice handler:ButtonArea button:Notes pos:0,-300 goto:.Found wait:false
+
+# ebfc1d4f
+; Home sweet home.
+Дім, милий дім.
+
+# 8a8f3b7
+; Player: Where can it be?
+ Player: Де вони можуть бути?
+
+# 1bce279
+; Player: I found notes!
+ Player: Знайшов!
+
+# 9ea8d5fd
+; Player: Now i need to think about what to do with them...[skipInput]
+ Player: Тепер лишилось тільки вирішити що з ними робити...[skipInput]

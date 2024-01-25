@@ -1,0 +1,10 @@
+; English <en> to Ukrainian <uk> localization document for `Uncategorized` managed text document
+
+Class: КЛАС
+Finished: Завершено
+Home: ДІМ
+MapBackButton: Назад
+MapButton: Мапа
+QuestLogController.QuestText: ;Знайти Харуо на шкільному дворі;Принести конспекти з дому;Прийти на шкільний двір подумати;Знайти Ріоко або Харуо
+Results: Результати
+Yard: ДВІР

@@ -1,0 +1,13 @@
+
+
+@set PlayerName="???"
+@showUI QuestLog
+@set home_access=false
+@set quest_state=0
+@input PlayerName summary:"Now what is my name?"
+
+@stop
+Player: Ah, yes, i'm {PlayerName}.
+@goto Lab.Navigation
+
+

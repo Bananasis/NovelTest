@@ -1,0 +1,7 @@
+; English <en> to Ukrainian <uk> localization document for `Start` naninovel script
+
+# cd463b61
+@input PlayerName summary:"Тож, яке моє ім'я?"
+
+# 7b2e7df2
+ Player: Точно, мене звуть {PlayerName}.

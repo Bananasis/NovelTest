@@ -1,0 +1,3 @@
+Haruo: Haruo
+Player: {PlayerName}
+Ryoko: Ryoko

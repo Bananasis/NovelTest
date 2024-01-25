@@ -1,0 +1,105 @@
+; English <en> to Ukrainian <uk> localization document for `Yard` naninovel script
+
+# 8010d5a
+;     Player: Haruo, we need to talk...
+     Player: Харуо, нам треба поговорити...
+
+# 85e31a8f
+;     Haruo: I know. I was a bit of a jerk today. And Ryoko did nothing nothing bad to take it on her.
+     Haruo: Я знаю. Я трішки перегнув палицю сьогодні. Та й Ріоко не вчинила мені жодної кривди, щоб так на неї зриватись.
+
+# ea8e6cc5
+;     Haruo: What do you say three of us gather today after school and study for that math exam.
+    Haruo: Що ти скажеш на те щоб зібратись втрьох і гарненько підготуватись до цього тесту?
+
+# 84dbb5bf
+;     Player: Great. I'll tell Ryoko. When she cools down a little.[skipInput]
+    Player: Чудово. Піду скажу Ріоко. Коли вона трішки заспокоїться.[skipInput]
+
+# defa7569
+;     Haruo: Don't even start. I don't want to hear anithyng from you right now.
+     Haruo: Навіть не починай. Не хочу нічого від тебе чути.
+
+# b5c028d3
+;     Player: ...[skipInput]
+    Player: ...[skipInput]
+
+# 3c35b08c
+; Haruo: Did you bring my notes?
+Haruo: Приніс нотатки?
+
+# 55d33201
+; Player: Not yet.
+ Player: Ще ні.
+
+# 3f69747e
+; Haruo: Than what are you waiting for?[skipInput]
+ Haruo: Тоді чого ти тут вештаєшся?[skipInput]
+
+# 30cca791
+; No matter who I give the notes to, somebody will be upset. Also i need them myself because of the exam. What should i do!? [skipInput]
+Кому б я не дав нотатки, хтось образиться. Та й мені вони б знадобились. Що ж робити!? [skipInput]
+
+# c5d555f7
+; Lunch break. A lot of people but nobody to talk to.[skipInput]
+ Обідня перерва. Багато людей, але ні з ким побалакати.[skipInput]
+
+# daf61fef
+; Player: Hi, Haruo!
+ Player: Привіт, Харуо!
+
+# 2999cf6
+; Haruo: Good morning.
+ Haruo: Доброго ранку.
+
+# 4c2d9476
+; Player: What's the matter with you and Ryoko?
+Player: Що сталося між тобою і Ріоко?
+
+# 228c963f
+; Haruo: She wants my math notes which I don't have.
+ Haruo: Вона хоче конспекти яких в мене немає.
+
+# 17902295
+; Haruo: Do you want to know why?
+ Haruo: І знаєш чому?
+
+# 48030d2b
+; Player: ...
+ Player: ...
+
+# 1c20fa16
+; Haruo: Because you've borrowed them!
+ Haruo: Тому що вони в тебе!
+
+# c0f80b32
+; Player: Wait, what?
+ Player: Чекай, що?
+
+# 9bd0a516
+; Haruo: Let's do an excersize to refresh your memory.
+ Haruo: Давай поробимо вправи на пам'ять. Може так ти згадаєш.
+
+# e56f86a2
+; Player: Ok, I rememeber now.
+ Player: Добре, тепер я згадав.
+
+# 10e65dd7
+; Haruo: Good. Now I want you to return them to me.
+ Haruo: Прекрасно. А тепер поверни конспекти нарешті.
+
+# dd16272a
+; Player: What about Ryoko?
+    Player: А що з проханням Ріоко?
+
+# 9e5b58a5
+; Haruo: What about her? It's not my problem that some people can't get their shit together. Besides, I'm sick of helping idiots who can't even be bothered to return my notes.
+ Haruo: Що з ним? Це не моя проблема, що дехто не може взяти себе в руки. Більше того, мене вже нудить допомогати ідіотам, які навіть не можуть спромогтися вчасно повернути конспект.
+
+# 6cf64cba
+; Player: Ok, I get you.
+ Player: Добре, Я тебе зрозумів.
+
+# 4da31a1d
+; Haruo: Good.[skipInput]
+ Haruo: От і славно.[skipInput]

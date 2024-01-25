@@ -1,0 +1,125 @@
+#Navigation
+
+@hideAll
+@hideUI Map 
+@hideUI MapButton
+@back science_lab 
+@if quest_state<=0 
+    @goto .RyokoEncounter
+@elseIf quest_state<=2
+    @goto .RyokoWait
+@elseIf quest_state<=3
+    @goto .NobodyHere
+@elseIf quest_state<=4
+    @goto .Conflict
+@else
+    @goto .RyokoAfter
+@endIf
+@stop
+
+
+
+
+
+
+#RyokoEncounter
+@char Ryoko.ryoko_school_normal time:0.5
+
+@char Ryoko.ryoko_school_normaltalk
+Ryoko: Hi, {PlayerName} can you talk to Haruo so he gives me his notes from math class? 
+@char Ryoko.ryoko_school_normaltalk2
+Ryoko: Partial exam is close and I am really desperate to have at least B- or I flank the whole semester. 
+Player: Ok, no problem.
+@char Ryoko.ryoko_school_normal
+Ryoko: Thank you. You're saving my life!
+@char Ryoko.ryoko_school_normalblush
+Ryoko: It's lunch break so he probably in the school yard
+@set quest_state=1
+@char Ryoko.ryoko_school_normal
+Ryoko: Good luck! [skipInput]
+@showUI MapButton
+
+@stop
+
+#RyokoWait
+@char Ryoko.ryoko_school_normaltalk
+Ryoko: Did you talk to Haruo?
+@char Ryoko.ryoko_school_normal
+Player: I'm on it.
+@char Ryoko.ryoko_school_normaltalk2
+Ryoko: Counting on you.[skipInput]
+@showUI MapButton
+@stop
+
+#NobodyHere
+Lunch break. Nobody's in the class.[skipInput]
+@showUI MapButton
+@stop 
+
+#Conflict
+@char Ryoko.ryoko_school_normaltalk
+
+Ryoko: Did you talk to Haruo?
+Player: Yes, he won't give you the notes.
+Ryoko: Crap!
+Player: But I can give them to you.
+Ryoko: Really?
+@char Haruo.haruo_school_normaltalk
+Haruo: There you are. Did you bring the notes?
+Ryoko: *whispering* Please.
+What do you do?
+@choice "Sneakly pass notes to Ryoko" set:quest_choice="Ryoko"
+@choice "Give notes to Haruo" set:quest_choice="Haruo"
+@choice "Take notes for yourself" set:quest_choice="Self"
+@stop
+@set quest_state=5
+@if quest_choice=="Ryoko"
+    You pass the notes to Ryoko behind your back.
+    Player: I didn't found them. Probably lost somewhere.
+    Haruo: You did what!?
+    Haruo: You know what? Nevermind. It's my fault for trusting you. Again.
+    @hide Haruo
+    Ryoko: Thank you! Won't you be in trouble because you helped me?
+    Player: It's ok. I'll make it up to him. [skipInput]
+
+@elseIf quest_choice=="Haruo"
+    Player: Actually, I did.
+    Player: There are your notes.
+    You give the notes to Haruo.
+    Haruo: Thank you, {PlayerName}. Now if you excuse me I have a lunch to eat.
+    @hide Haruo
+    Ryoko: You promised!
+    Player: I said i'd try.
+    Ryoko: What am i supposed to do now.
+    Player: I'm sorry.But lying to Haruo is not the solution.
+    Ryoko: Ok, I get it.[skipInput]
+
+@else
+    Player: I didn't found them. Probably lost somewhere.
+    Haruo: You did what!?
+    Haruo: You know what? Nevermind. It's my fault for trusting you. Again.
+    @hide Haruo
+    Ryoko: So... Will you give the notes to me?
+    Player: You know. I don't really have them on me right now. But when I find them I'll give them to you.
+    Ryoko: I see.[skipInput]
+
+
+@endIf
+@showUI MapButton
+@stop
+
+
+#RyokoAfter 
+@char Ryoko.ryoko_school_normaltalk
+@if quest_choice="Ryoko"
+    Ryoko: O, {PlayerName}. Thank you again. What do you think of studying with me after school?
+    Player: I think that's a great idea.
+    Ryoko: Good. Until then, then.[skipInput]
+@else
+    Player: Ryoko, listen...
+    Ryoko: Sorry, don't have time for chit-chat. I need to decide what minimum wage job I'm gonna work after I fail math.[skipInput]
+
+@endIf
+@showUI MapButton
+@stop
+

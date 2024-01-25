@@ -1,0 +1,89 @@
+
+#Navigation
+
+@hideAll
+@hideUI Map
+@hideUI MapButton
+@back school_yard 
+@if quest_state<=0 
+    @goto .NobodyHere
+@elseIf quest_state<=1
+    @goto .HaruoEncounter
+@elseIf quest_state<=2
+    @goto .HaruoWait
+@elseIf quest_state<=3
+    @goto .Think
+@elseIf quest_state<=4
+    @goto .NobodyHere
+@else
+    @goto .HaruoAfter
+@endIf
+@stop
+
+
+#HaruoAfter
+@char Haruo.haruo_school_normaltalk
+@if quest_choice="Haruo"
+    Player: Haruo, we need to talk...
+    Haruo: I know. I was a bit of a jerk today. And Ryoko did nothing nothing bad to take it on her.
+    Haruo: What do you say three of us gather today after school and study for that math exam.
+    Player: Great. I'll tell Ryoko. When she cools down a little.[skipInput]
+
+@else
+    Haruo: Don't even start. I don't want to hear anithyng from you right now.
+    Player: ...[skipInput]
+
+    
+@endIf
+@showUI MapButton
+@stop
+
+#HaruoWait
+@char Haruo.haruo_school_normaltalk
+Haruo: Did you bring my notes?
+@char Haruo.haruo_school_normal
+Player: Not yet.
+@char Haruo.haruo_school_normaltalk
+Haruo: Than what are you waiting for?[skipInput]
+@showUI MapButton
+@stop
+
+#Think 
+No matter who I give the notes to, somebody will be upset. Also i need them myself because of the exam. What should i do!? [skipInput]
+@showUI MapButton
+@set quest_state=4
+@stop
+
+#NobodyHere
+Lunch break. A lot of people but nobody to talk to.[skipInput]
+@showUI MapButton
+@stop
+
+#HaruoEncounter
+@char Haruo.haruo_school_normal
+Player: Hi, Haruo!
+@char Haruo.haruo_school_normaltalk
+Haruo: Good morning.
+Player: What's the matter with you and Ryoko?
+@char Haruo.haruo_school_smirk
+Haruo: She wants my math notes which I don't have.
+Haruo: Do you want to know why?
+Player: ...
+@char Haruo.haruo_school_angrytalk
+Haruo: Because you've borrowed them!
+Player: Wait, what?
+@char Haruo.haruo_school_smirk
+Haruo: Let's do an excersize to refresh your memory.
+@resetText
+@memoryGame wait:true
+Player: Ok, I rememeber now.
+@set quest_state=2
+@set home_access=true
+@char Haruo.haruo_school_normal
+Haruo: Good. Now I want you to return them to me.
+Player: What about Ryoko?
+Haruo: What about her? It's not my problem that some people can't get their shit together. Besides, I'm sick of helping idiots who can't even be bothered to return my notes.
+Player: Ok, I get you.
+Haruo: Good.[skipInput]
+@showUI MapButton
+@stop

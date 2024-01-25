@@ -1,0 +1,22 @@
+@hideAll
+@hideUI Map
+@hideUI MapButton
+@back home
+@choice handler:ButtonArea button:Notes pos:0,-300 goto:.Found wait:false
+Home sweet home.
+Player: Where can it be?
+@hidePrinter
+@resetText
+@set search_state="true"
+
+@stop
+
+#Found
+@showPrinter
+@set search_state="false"
+@set quest_state=3
+@set home_access=false 
+Player: I found notes!
+Player: Now i need to think about what to do with them...[skipInput]
+@showUI MapButton
+@stop
